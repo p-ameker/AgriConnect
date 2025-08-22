@@ -1,0 +1,125 @@
+/* Background Styling */
+body {
+    font-family: Arial, sans-serif;
+    background: url('agriculture-bg.jpg') no-repeat center center fixed; 
+    background-size: cover;
+    backdrop-filter: blur(4px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Signup Form Container */
+.signup-container {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 30px;
+    border-radius: 12px;
+    width: 380px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+    animation: fadeInUp 0.8s ease;
+     background: rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
+    /* Glow & Shadow */
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3), 
+                0 0 15px rgba(86, 171, 47, 0.4); 
+    border-radius: 16px;
+    transform: scale(1.02);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35), 
+                0 0 20px rgba(86, 171, 47, 0.6); 
+    transition: all 0.3s ease;
+}
+
+
+/* Heading */
+h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #ffffff;
+    font-size: 22px;
+}
+
+/* Input Groups */
+.input-group {
+    margin-bottom: 18px;
+}
+
+label {
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 6px;
+    color: #333;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: none;
+    height: 65px;
+}
+
+/* Button */
+.btn {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(135deg, #56ab2f, #4caf50);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background: linear-gradient(135deg, #449522, #388e3c);
+    
+}
+
+/* Error Message */
+#error-msg {
+    color: red;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Back Link */
+.back-link {
+    text-align: center;
+    margin-top: 12px;
+    font-size: 14px;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(270deg, #4CAF50, #2E7D32, #8BC34A);
+    background-size: 600% 600%;
+    animation: gradientShift 8s ease infinite;
+}
+@keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+
+button[type="submit"]:hover {
+    background: #76ff03b5;
+    transform: scale(1.05);
+}
+
+p.back-link{
+   color: #a5ff9f;
+}

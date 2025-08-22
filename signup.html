@@ -1,0 +1,30 @@
+<!-- signup.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GreenFields Sign Up</title>
+  <link rel="stylesheet" href="signup.css"> <!-- keep your CSS -->
+</head>
+<body>
+  <div class="login-container">
+    <h1>GreenFields Agriculture</h1>
+
+    <!-- Signup Form -->
+    <form id="signup-form" class="form active" action="/signup_process.php" method="POST">
+      <input type="text" name="name" placeholder="Full Name" required>
+      <input type="email" name="email" placeholder="Email" required>
+      <input type="password" name="password" placeholder="Password" required>
+      <input type="password" name="confirmPassword" placeholder="Confirm Password" required>
+      <button type="submit">Sign Up</button>
+    </form>
+
+    <p class="redirect">
+      Already have an account? <a href="login.html">Sign In</a>
+    </p>
+
+    <p class="back-link"><a href="index.html">← Back to Home</a></p>
+  </div>
+</body>
+</html>
