@@ -3,5 +3,4 @@ AgriConnect is an open-source platform designed to revolutionize the Indian agro
 ## 📚 Reference
 
 For a detailed explanation of this project, check out my Medium article:  
-👉 ([[https://medium.com/your-article-link]](https://medium.com/@agriconnect.greenlinker/agriconnect-empowering-indian-farmers-and-consumers-by-eliminating-middlemen-60d9356afbf5]])
-
+👉 ([[https://medium.com/@agriconnect.greenlinker/agriconnect-empowering-indian-farmers-and-consumers-by-eliminating-middlemen-60d9356afbf5]]
